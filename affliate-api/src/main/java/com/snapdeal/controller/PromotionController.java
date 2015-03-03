@@ -1,6 +1,5 @@
 package com.snapdeal.controller;
 
-
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -14,24 +13,19 @@ import com.snapdeal.model.Promotion;
 import com.snapdeal.service.PromotionService;
 import com.wordnik.swagger.annotations.ApiOperation;
 
-
-
 @RestController
 @EnableSwagger
 public class PromotionController {
-	
 
+	@Resource
+	private PromotionService promotionService;
 
-
-		@Resource
-		private PromotionService promotionService;
-		
-		@ApiOperation(value="get list of products")
-		@RequestMapping(value ="/promotions", method= RequestMethod.GET)
-		public List<Promotion> getListOfPromotions(){
-			return promotionService.getactivePromotionList();
+	@ApiOperation(value = "get list of products")
+	@RequestMapping(value = "/promotions", method = RequestMethod.GET)
+	public List<Promotion> getListOfPromotions() {
+		return promotionService.getactivePromotionList();
 
 	}
-
+	
 
 }
