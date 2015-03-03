@@ -18,7 +18,7 @@ import com.wordnik.swagger.annotations.ApiOperation;
 
 @RestController
 @EnableSwagger
-public class PromotionApiController {
+public class PromotionController {
 	
 
 
