@@ -1,0 +1,17 @@
+*.class
+*.jar
+*.war
+*.ear
+
+.DS_Store
+
+bin
+build
+repos
+out
+
+/target
+/target/*
+.settings
+.classpath
+.project

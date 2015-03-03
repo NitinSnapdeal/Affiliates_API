@@ -1,0 +1,5 @@
+com/snapdeal/controller/PromotionApiController.class
+com/snapdeal/core/Application.class
+com/snapdeal/service/PromotionService.class
+com/snapdeal/serviceImpl/PromotionServiceImpl.class
+com/snapdeal/model/Promotion.class
