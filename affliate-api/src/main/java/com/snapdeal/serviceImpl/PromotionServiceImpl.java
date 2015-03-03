@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
+import com.snapdeal.model.Deals;
 import com.snapdeal.model.Promotion;
 import com.snapdeal.service.PromotionService;
 
@@ -20,6 +21,12 @@ public class PromotionServiceImpl implements PromotionService {
 		promotionList.add(promotion);
 		return promotionList;
 		
+	}
+
+	@Override
+	public List<Deals> getDOTD() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
