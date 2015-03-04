@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
 import com.mangofactory.swagger.plugin.EnableSwagger;
-import com.snapdeal.api.rest.Deals;
+import com.snapdeal.promotions.model.Deals;
 import com.snapdeal.promotions.model.Promotion;
 import com.snapdeal.promotions.model.TopOffer;
 import com.snapdeal.promotions.service.PromotionService;
 import com.wordnik.swagger.annotations.ApiOperation;
-
 import com.wordnik.swagger.annotations.ApiParam;
+
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

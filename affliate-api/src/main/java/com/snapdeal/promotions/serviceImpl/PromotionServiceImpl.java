@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.snapdeal.api.rest.Deals;
+import com.snapdeal.promotions.model.Deals;
 import com.snapdeal.promotions.model.ImageURL;
 import com.snapdeal.promotions.model.Promotion;
 import com.snapdeal.promotions.model.TopOffer;
