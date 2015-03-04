@@ -19,23 +19,23 @@ import com.wordnik.swagger.annotations.ApiOperation;
 @EnableSwagger
 public class PromotionController {
 
-
 	@Resource
 	private PromotionService promotionService;
 
-	@ApiOperation(value="get list of active promotions")
-	@RequestMapping(value ="/promotions", method= RequestMethod.GET)
-	public List<Promotion> getListOfPromotions(){
+	@ApiOperation(value = "get list of active promotions")
+	@RequestMapping(value = "/promotions", method = RequestMethod.GET)
+	public List<Promotion> getListOfPromotions() {
 		return promotionService.getactivePromotionList();
 
 	}
-	@ApiOperation(value="get deals of the day")
-	@RequestMapping(value ="/deals", method= RequestMethod.GET)
-	public List<Deals> getDOTD(){
+
+	@ApiOperation(value = "get deals of the day")
+	@RequestMapping(value = "/deals", method = RequestMethod.GET)
+	public List<Deals> getDOTD() {
 		return promotionService.getDOTD();
 
 	}
-	
+
 	@ApiOperation(value = "get list of top offers")
 	@RequestMapping(value = "/topOffers", method = RequestMethod.GET)
 	public List<TopOffer> getListOfTopOffer() {
