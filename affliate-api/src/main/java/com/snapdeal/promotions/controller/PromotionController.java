@@ -1,4 +1,4 @@
-package com.snapdeal.controller;
+package com.snapdeal.promotions.controller;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mangofactory.swagger.plugin.EnableSwagger;
-import com.snapdeal.model.Deals;
-import com.snapdeal.model.Promotion;
-import com.snapdeal.model.TopOffer;
-import com.snapdeal.service.PromotionService;
+import com.snapdeal.promotions.model.Deals;
+import com.snapdeal.promotions.model.Promotion;
+import com.snapdeal.promotions.model.TopOffer;
+import com.snapdeal.promotions.service.PromotionService;
 import com.wordnik.swagger.annotations.ApiOperation;
 
 @RestController

@@ -1,10 +1,10 @@
-package com.snapdeal.service;
+package com.snapdeal.promotions.service;
 
 import java.util.List;
 
-import com.snapdeal.model.Deals;
-import com.snapdeal.model.Promotion;
-import com.snapdeal.model.TopOffer;
+import com.snapdeal.promotions.model.Deals;
+import com.snapdeal.promotions.model.Promotion;
+import com.snapdeal.promotions.model.TopOffer;
 
 public interface PromotionService {
 	

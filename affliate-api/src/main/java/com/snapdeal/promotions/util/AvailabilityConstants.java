@@ -1,4 +1,4 @@
-package com.snapdeal.util;
+package com.snapdeal.promotions.util;
 
 public class AvailabilityConstants {
 

@@ -1,4 +1,4 @@
-package com.snapdeal.model;
+package com.snapdeal.promotions.model;
 
 public class Promotion {
 	

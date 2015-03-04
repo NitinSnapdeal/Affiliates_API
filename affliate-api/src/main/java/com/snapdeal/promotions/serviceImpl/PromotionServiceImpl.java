@@ -1,4 +1,4 @@
-package com.snapdeal.serviceImpl;
+package com.snapdeal.promotions.serviceImpl;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -7,12 +7,12 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.snapdeal.model.Deals;
-import com.snapdeal.model.ImageURL;
-import com.snapdeal.model.Promotion;
-import com.snapdeal.model.TopOffer;
-import com.snapdeal.service.PromotionService;
-import com.snapdeal.util.AvailabilityConstants;
+import com.snapdeal.promotions.model.Deals;
+import com.snapdeal.promotions.model.ImageURL;
+import com.snapdeal.promotions.model.Promotion;
+import com.snapdeal.promotions.model.TopOffer;
+import com.snapdeal.promotions.service.PromotionService;
+import com.snapdeal.promotions.util.AvailabilityConstants;
 
 @Component
 public class PromotionServiceImpl implements PromotionService {

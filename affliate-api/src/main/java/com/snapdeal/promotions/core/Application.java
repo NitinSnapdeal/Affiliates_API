@@ -1,4 +1,4 @@
-package com.snapdeal.core;
+package com.snapdeal.promotions.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
