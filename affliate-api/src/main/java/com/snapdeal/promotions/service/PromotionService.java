@@ -2,7 +2,7 @@ package com.snapdeal.promotions.service;
 
 import java.util.List;
 
-import com.snapdeal.promotions.model.Deals;
+import com.snapdeal.api.rest.Deals;
 import com.snapdeal.promotions.model.Promotion;
 import com.snapdeal.promotions.model.TopOffer;
 

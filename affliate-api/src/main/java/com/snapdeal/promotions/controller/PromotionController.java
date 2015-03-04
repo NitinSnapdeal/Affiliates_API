@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mangofactory.swagger.plugin.EnableSwagger;
-import com.snapdeal.promotions.model.Deals;
+import com.snapdeal.api.rest.Deals;
 import com.snapdeal.promotions.model.Promotion;
 import com.snapdeal.promotions.model.TopOffer;
 import com.snapdeal.promotions.service.PromotionService;
