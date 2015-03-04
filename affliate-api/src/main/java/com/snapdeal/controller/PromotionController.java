@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mangofactory.swagger.plugin.EnableSwagger;
 import com.snapdeal.model.Deals;
 import com.snapdeal.model.Promotion;
+import com.snapdeal.model.TopOffer;
 import com.snapdeal.service.PromotionService;
 import com.wordnik.swagger.annotations.ApiOperation;
 
@@ -33,6 +34,12 @@ public class PromotionController {
 	public List<Deals> getDOTD(){
 		return promotionService.getDOTD();
 
+	}
+	
+	@ApiOperation(value = "get list of top offers")
+	@RequestMapping(value = "/topOffers", method = RequestMethod.GET)
+	public List<TopOffer> getListOfTopOffer() {
+		return promotionService.getactiveTopOffersList();
 	}
 
 }
