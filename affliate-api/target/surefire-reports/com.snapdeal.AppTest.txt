@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.snapdeal.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.snapdeal.AppTest
+=======
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.snapdeal.AppTest
+>>>>>>> d9e105630bc8399c322c09951d88336ee1e06f18
