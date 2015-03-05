@@ -6,26 +6,16 @@ import javax.annotation.Resource;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
-import com.mangofactory.swagger.plugin.EnableSwagger;
 import com.snapdeal.promotions.model.Deals;
 import com.snapdeal.promotions.model.Promotion;
 import com.snapdeal.promotions.model.TopOffer;
 import com.snapdeal.promotions.service.PromotionService;
 import com.wordnik.swagger.annotations.ApiOperation;
 
-import com.wordnik.swagger.annotations.ApiParam;
-import org.springframework.http.MediaType;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-
 
 @RestController
-@EnableSwagger
 public class PromotionController {
 
 	
